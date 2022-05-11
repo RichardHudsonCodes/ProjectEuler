@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{C93590F3-25C1-4F81-92C2-5B53834B2778}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LargestPrimeNumber/Program.cs">
+    <Files>
+      <File FileName="LargestPrimeNumber/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LargestPrimeNumber" expanded="True">
+            <Node name="LargestPrimeNumber" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.LargestPrimeNumber FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
