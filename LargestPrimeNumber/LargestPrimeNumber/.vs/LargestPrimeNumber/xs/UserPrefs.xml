@@ -1,14 +1,33 @@
 ﻿<Properties StartupConfiguration="{C93590F3-25C1-4F81-92C2-5B53834B2778}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LargestPrimeNumber/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LargestPrimeNumber/LargestPrimeNumber.cs">
     <Files>
-      <File FileName="LargestPrimeNumber/Program.cs" Line="1" Column="1" />
+      <File FileName="LargestPrimeNumber/Program.cs" Line="11" Column="16" />
+      <File FileName="LargestPrimeNumber/ErrorMessage.cs" Line="2" Column="38" />
+      <File FileName="Tests.LargestPrimeNumber/LargestPrimeNumberTest.cs" Line="29" Column="107" />
+      <File FileName="LargestPrimeNumber/LargestPrimeNumber.cs" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LargestPrimeNumber" expanded="True">
             <Node name="LargestPrimeNumber" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="LargestPrimeNumber.cs" selected="True" />
+            </Node>
+            <Node name="Tests.LargestPrimeNumber" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="LargestPrimeNumber" expanded="True">
+            <Node name="Tests.LargestPrimeNumber" expanded="True">
+              <Node name="LargestPrimeNumberNamespace" expanded="True">
+                <Node name="LargestPrimeNumberTest" expanded="True">
+                  <Node name="CalculateLargestPrimeNumber_input_1" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
@@ -18,8 +37,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/Tests.LargestPrimeNumber/LargestPrimeNumberTest.cs" relfile="Tests.LargestPrimeNumber/LargestPrimeNumberTest.cs" line="24" column="1" />
+      <Breakpoint file="/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/Tests.LargestPrimeNumber/LargestPrimeNumberTest.cs" relfile="Tests.LargestPrimeNumber/LargestPrimeNumberTest.cs" line="30" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.LargestPrimeNumber FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LargestPrimeNumber PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

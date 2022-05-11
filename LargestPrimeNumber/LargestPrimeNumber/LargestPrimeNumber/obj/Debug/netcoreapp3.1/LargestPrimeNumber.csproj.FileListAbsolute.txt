@@ -1,0 +1,13 @@
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/bin/Debug/netcoreapp3.1/LargestPrimeNumber.deps.json
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/bin/Debug/netcoreapp3.1/LargestPrimeNumber.runtimeconfig.json
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/bin/Debug/netcoreapp3.1/LargestPrimeNumber.runtimeconfig.dev.json
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/bin/Debug/netcoreapp3.1/LargestPrimeNumber.dll
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/bin/Debug/netcoreapp3.1/LargestPrimeNumber.pdb
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/obj/Debug/netcoreapp3.1/LargestPrimeNumber.GeneratedMSBuildEditorConfig.editorconfig
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/obj/Debug/netcoreapp3.1/LargestPrimeNumber.AssemblyInfoInputs.cache
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/obj/Debug/netcoreapp3.1/LargestPrimeNumber.AssemblyInfo.cs
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/obj/Debug/netcoreapp3.1/LargestPrimeNumber.csproj.CoreCompileInputs.cache
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/obj/Debug/netcoreapp3.1/LargestPrimeNumber.dll
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/obj/Debug/netcoreapp3.1/LargestPrimeNumber.pdb
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/obj/Debug/netcoreapp3.1/LargestPrimeNumber.genruntimeconfig.cache
+/Users/richardhudson/Projects/ProjectEuler/LargestPrimeNumber/LargestPrimeNumber/LargestPrimeNumber/obj/Debug/netcoreapp3.1/LargestPrimeNumber.csproj.AssemblyReference.cache
