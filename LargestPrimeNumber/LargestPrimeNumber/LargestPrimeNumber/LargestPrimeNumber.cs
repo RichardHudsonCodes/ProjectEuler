@@ -11,19 +11,12 @@ namespace LargestPrimeNumberNamespace
         {
         }
 
-        public BigInteger CalculateLargestPrimeNumber(BigInteger inputNumber)
-        {
-            //TODO
-            //Check the input number is positive and greater than 1 (0 and 1 are not prime numbers) throw exception
-            if (inputNumber <= 1)
+        public int CalculateLargestPrimeNumber(int inputNumber)
+        { 
+            inputNumber = ValidateInput(inputNumber);
+            if (inputNumber == 0)
             {
-                Console.WriteLine($"{inputNumber}: {ErrorMessage.NumberOutOfRange}");
-                return 0;
-            }
-
-            if (inputNumber > int.MaxValue)
-            {
-
+                return inputNumber;
             }
 
             var factors = GetFactors(inputNumber);
@@ -41,9 +34,25 @@ namespace LargestPrimeNumberNamespace
             return 0;
         }
 
-        private List<BigInteger> GetFactors(BigInteger inputNumber)
+        private int ValidateInput(int inputNumber)
         {
-            var factors = new List<BigInteger>();
+            if (inputNumber <= 1)
+            {
+                Console.WriteLine($"{inputNumber}: {ErrorMessage.NumberOutOfRange}");
+                return 0;
+            }
+
+            if (inputNumber >= int.MaxValue)
+            {
+                Console.WriteLine($"{inputNumber}: {ErrorMessage.NumberOutTooLarge}");
+                return 0;
+            }
+            return inputNumber;
+        }
+
+        private List<int> GetFactors(int inputNumber)
+        {
+            var factors = new List<int>();
             for (int i = 1; i <= inputNumber; i++)
             {
                 if (inputNumber % i == 0)

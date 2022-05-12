@@ -10,8 +10,8 @@ namespace Programme
         {
             start:
             Console.WriteLine("What number would you like to test?");
-            BigInteger testNumber;
-            BigInteger.TryParse(Console.ReadLine(), out testNumber);
+            int testNumber;
+            int.TryParse(Console.ReadLine(), out testNumber);
             var largestPrimeNumber = new LargestPrimeNumber();
 
             var output = largestPrimeNumber.CalculateLargestPrimeNumber(testNumber);
