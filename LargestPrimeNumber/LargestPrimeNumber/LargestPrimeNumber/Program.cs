@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 using LargestPrimeNumberNamespace;
 
 namespace Programme
@@ -9,12 +10,15 @@ namespace Programme
         {
             start:
             Console.WriteLine("What number would you like to test?");
-            int testNumber;
-            int.TryParse(Console.ReadLine(), out testNumber);
+            BigInteger testNumber;
+            BigInteger.TryParse(Console.ReadLine(), out testNumber);
             var largestPrimeNumber = new LargestPrimeNumber();
 
             var output = largestPrimeNumber.CalculateLargestPrimeNumber(testNumber);
-            Console.WriteLine($"Largest prime number is {output}");
+            if (output != 0)
+            {
+                Console.WriteLine($"Largest prime number is {output}");
+            }
             goto start;
         }
     }

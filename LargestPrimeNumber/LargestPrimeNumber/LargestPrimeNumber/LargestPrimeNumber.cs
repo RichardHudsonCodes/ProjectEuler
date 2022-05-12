@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 
 namespace LargestPrimeNumberNamespace
 {
@@ -10,7 +11,7 @@ namespace LargestPrimeNumberNamespace
         {
         }
 
-        public int CalculateLargestPrimeNumber(int inputNumber)
+        public BigInteger CalculateLargestPrimeNumber(BigInteger inputNumber)
         {
             //TODO
             //Check the input number is positive and greater than 1 (0 and 1 are not prime numbers) throw exception
@@ -20,9 +21,11 @@ namespace LargestPrimeNumberNamespace
                 return 0;
             }
 
-            //Find all the factors of the input number. start by dividing by 2 and then incrementing upwards checking the quotient each time
-            //once we have a list of factors. Determine whether they are prime. Start with the highest and stop
-            //on the first prime number
+            if (inputNumber > int.MaxValue)
+            {
+
+            }
+
             var factors = GetFactors(inputNumber);
             factors = factors.OrderByDescending(i => i).ToList();
              
@@ -34,14 +37,13 @@ namespace LargestPrimeNumberNamespace
                 {
                     return factor;
                 }
-            }
-
+            }         
             return 0;
         }
 
-        public List<int> GetFactors(int inputNumber)
+        private List<BigInteger> GetFactors(BigInteger inputNumber)
         {
-            var factors = new List<int>();
+            var factors = new List<BigInteger>();
             for (int i = 1; i <= inputNumber; i++)
             {
                 if (inputNumber % i == 0)

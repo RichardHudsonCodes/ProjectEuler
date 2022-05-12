@@ -15,7 +15,7 @@ namespace LargestPrimeNumberNamespace
             //action
             var largestPrimeNumber = _largestPrimeNumber.CalculateLargestPrimeNumber(inputNumber);
             //assert
-            Assert.True(largestPrimeNumber == 5);
+            Assert.True(largestPrimeNumber == 3);
         }
 
         [Fact]
@@ -26,8 +26,8 @@ namespace LargestPrimeNumberNamespace
             //action
             var largestPrimeNumber = _largestPrimeNumber.CalculateLargestPrimeNumber(inputNumber);
             //assert
-            var ex = Assert.Throws<Exception>(()  => _largestPrimeNumber.CalculateLargestPrimeNumber(inputNumber));
-            Assert.True(ex.Message == ErrorMessage.NumberOutOfRange);
+           
+            Assert.True(largestPrimeNumber == 0);
         }
     }
 }
